@@ -18,11 +18,11 @@ window.onload = function() {
 
     console.log("Lista de combinaciones de dominios:");
 
-    for (let p = 0; p < pronoun.length; p++) {
-      for (let a = 0; a < adj.length; a++) {
-        for (let n = 0; n < noun.length; n++) {
+    for (let i = 0; i < pronoun.length; i++) {
+      for (let j = 0; j < adj.length; j++) {
+        for (let k = 0; n < noun.length; k++) {
           for (let e = 0; e < extensions.length; e++) {
-            console.log(pronoun[p] + adj[a] + noun[n] + extensions[e]);
+            console.log(pronoun[i] + adj[j] + noun[k] + extensions[e]);
           }
         }
       }
