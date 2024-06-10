@@ -14,7 +14,7 @@ window.onload = function() {
     const pronoun = ["the", "our"];
     const adj = ["great", "big"];
     const noun = ["jogger", "racoon"];
-    const extensions = [".com", ".net", ".us", ".io"];
+    const extensions = [".com", ".net", ".us", ".io", ".mx"];
 
     console.log("Lista de combinaciones de dominios:");
 
